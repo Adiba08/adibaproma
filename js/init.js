@@ -512,8 +512,8 @@ function arlo_tm_animate_text(){
 	var animateSpan			= jQuery('.arlo_tm_animation_text_word');
 	
 		animateSpan.typed({
-			strings: ["a PhD Student at University of Rochester", 
-			"an HCI researcher at the ROCHCI lab", "working on social networks and climate change"],
+			strings: ["a PhD Candidate at University of Rochester", 
+			"an HCI researcher at the ROCHCI lab", "interested in building tech for social good"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
