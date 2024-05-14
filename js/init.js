@@ -756,3 +756,22 @@ function arlo_tm_hamburger(){
 		return false;
 	});
 }
+
+// LLM Generated Code
+function scrollLeft() {
+	const container = document.getElementById('research-container');
+	container.scrollBy({
+		top: 0,
+		left: -1000, // Scroll by one research item
+		behavior: 'smooth'
+	});
+}
+
+function scrollRight() {
+	const container = document.getElementById('research-container');
+	container.scrollBy({
+		top: 0,
+		left: container.clientWidth / 3, // Scroll by one research item
+		behavior: 'smooth'
+	});
+}

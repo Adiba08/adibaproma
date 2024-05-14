@@ -2563,6 +2563,48 @@ img.svg{
 	font-size: 19px;
 }
 
+/*---------------------LLM STUFF------------------------------*/
+
+/* Scrollable container */
+.scrollable-container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    position: relative;
+}
+
+/* Research item styling */
+.scrollable-container .research-item {
+    flex: 0 0 33.33%; /* Show 3 items at a time */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Navigation buttons */
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.nav-button.left {
+    left: 0;
+}
+
+.nav-button.right {
+    right: 0;
+}
+
+
+
+
 /*---------------------------------------------------*/
 /*	15) ARLO MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
@@ -2623,4 +2665,4 @@ img.svg{
 	.arlo_tm_portfolio_list{margin: 0px;}
 	.arlo_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
 	.arlo_tm_counter_wrap{padding: 94px 0px 48px 0px;}
-}	
+}
