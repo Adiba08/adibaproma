@@ -1387,6 +1387,14 @@ img.svg{
 /*	08) ARLO NEWS
 /*---------------------------------------------------*/
 
+/* in your main stylesheet */
+.arlo_tm_list_wrap.blog_list_scroll {
+  max-height: 300px;    /* adjust to whatever “window” height you want */
+  overflow-y: auto;     /* enable vertical scrolling */
+  overflow-x: hidden;   /* hide any horizontal scrollbar */
+}
+
+
 .arlo_tm_list_wrap{
 	width: 100%;
 	height: auto;
